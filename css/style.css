@@ -1,0 +1,171 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+img {
+  max-width: 100%; }
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #252526;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700; }
+
+h2 {
+  text-align: center;
+  font-size: 2.0rem;
+  color: #252526;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  padding: 2rem; }
+
+h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #252526;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700; }
+
+/*Header*/
+.header_logo {
+  padding: 2rem; }
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .header {
+    background-color: #fff;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    text-align: center; } }
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem; } }
+
+/*teléfonos móviles en modo horizontal.*/
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .header_navigation li a {
+    text-decoration: none;
+    color: #252526;
+    font-size: 1.8rem;
+    padding: 1rem;
+    font-family: 'Heebo', sans-serif;
+    margin-right: 1rem;
+    flex-direction: column;
+    justify-content: center; }
+  .dropdown-menu {
+    text-align: center; }
+  .header_navigation span i {
+    font-size: 4rem;
+    text-align: center; }
+  .navbar {
+    justify-content: center; } }
+
+@media only screen and (min-width: 800px) {
+  .header_navigation li a {
+    text-decoration: none;
+    color: #252526;
+    font-size: 1.8rem;
+    padding: 1rem;
+    font-family: 'Heebo', sans-serif;
+    margin-right: 1rem;
+    flex-direction: row; } }
+
+.header_navigation li a:hover {
+  color: #252526;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  border-bottom: 1px solid #43B2F9; }
+
+/*Main*/
+.section_texto_nosotros p {
+  font-size: 1.8rem;
+  text-align: justify;
+  line-height: 1.3; }
+
+/*Marcas*/
+@media screen and (min-width: 300px) {
+  .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 100%;
+    max-width: 100%; }
+  img .img-fluid {
+    justify-self: center;
+    justify-items: center;
+    justify-content: center; } }
+
+@media screen and (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 20%;
+    max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+  border-radius: 2px; }
+
+.controls {
+  text-align: center; }
+
+img .img-fluid:hover {
+  cursor: pointer; }
+
+/*Footer*/
+footer {
+  padding: 0;
+  margin: 0;
+  background-color: #43B2F9;
+  margin-top: 2rem; }
+
+.footer_copy {
+  padding: 0;
+  margin: 0;
+  background-color: white; }
+
+.footer_contenedor {
+  display: grid;
+  align-items: center;
+  justify-items: center; }
+
+@media only screen and (min-width: 1024px) {
+  .footer_contenedor {
+    grid-template-columns: repeat(3, 1fr); } }
+
+.footer_contactanos,
+.footer_redes,
+.footer_newsletter {
+  margin: 0 auto; }
+
+footer p {
+  font-size: 1.6rem;
+  font-family: 'Heebo', sans-serif;
+  color: #252526;
+  text-align: center; }
+
+footer span, i {
+  font-weight: 700;
+  font-size: 1.8rem; }
+
+.footer_newsletter form input:not([type="submit"]) {
+  width: 20rem;
+  height: 2.5rem;
+  margin-left: 9rem; }
+
+.footer_newsletter .boton {
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1.5rem; }

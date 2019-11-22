@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: red;
+}
+
+ul li{
+    color: blue;
+}
+ul li a{
+    color: purple;
+}
+
+ol li{
+    color: fuchsia;
+}
+
+.desafio1 p{
+    color: orange;
+}
