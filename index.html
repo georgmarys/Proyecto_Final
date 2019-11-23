@@ -28,14 +28,14 @@
     <header class="header">
         <img class="header_logo" src="img/logo.png" alt="Logo">
         
-        <nav class="navbar navbar-expand-lg header_navigation">
+        <nav class="navbar navbar-expand-xl header_navigation">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span ><i class="fas fa-bars"></i></span>
             </button>
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#">Inicio</a>
                     </li>
                     
                 <li class="nav-item">
@@ -74,7 +74,7 @@
    </header>
    
     <main class="contenedor">
-        <img  class="section_banner" src="img/banner-nosotros.jpg" alt="Imagen Banner">
+        <img  class="section_banner h-75" src="img/banner-nosotros.jpg" alt="Imagen Banner">
 
         <div class="section_texto_nosotros">
             <h1>Ciencia y Tecnología Perú S.R.L</h1>
@@ -82,7 +82,77 @@
        </div>  
     </main>
     
-    <section class="marcas">
+    <section class="contenedor">
+        <h2 class="separador">Nuestros Productos</h2>
+        <div class="section_productos">
+             <div class="section_producto">
+                <div class="texto_producto"><p>Téxtil, Calzado y Plástico</p></div>
+                <img class="section_producto_img" src="img/icon-01.jpg" alt="Téxtil, Calzado y Plástico">
+            </div>
+
+           <div class="section_producto">
+                <div class="texto_producto"><p>Sector Farmacéutico</p></div>
+                <img class="section_producto_img" src="img/icon-02.jpg" alt="Sector Farmacéutico">
+           </div>
+
+           <div class="section_producto">
+                <div class="texto_producto"><p>Sector Agroindustrial</p></div>
+                <img class="section_producto_img" src="img/icon-06.jpg" alt="Sector Agroindustrial">
+           </div>
+
+           <div class="section_producto">
+                <div class="texto_producto"><p>Alimentos y Bebidas</p></div>
+                <img class="section_producto_img" src="img/icon-04.jpg" alt="Alimentos y Bebidas">
+           </div>
+
+           <div class="section_producto">
+                <div class="texto_producto"><p>Educación e Investigación</p></div>
+                <img class="section_producto_img" src="img/icon-05.jpg" alt="Educación e Investigación<">
+           </div>
+
+           <div class="section_producto">
+                <div class="texto_producto"><p>Sector Salud</p></div>
+                <img class="section_producto_img" src="img/icon-03.jpg" alt="Sector Salud">
+           </div>
+        </div>
+   </section>
+    
+    <section class="contenedor">
+        <h2 class="separador">Nuestros Servicios</h2>
+           <div class="section_servicios">
+                <div class="section_servicio">
+                   <div class="texto_servicio">
+                       <p>Asesoría</p>
+                    </div>
+                    <img src="img/servicio01.jpg" alt="Asesoría">
+                </div>
+
+                <div class="section_servicio">
+                    <div class="texto_servicio">
+                       <p>Calificación de Equipos</p>
+                    </div>
+                    <img src="img/servicio02.jpg" alt="Calificación de Equipos">
+                </div>
+
+                <div class="section_servicio">
+                   <div class="texto_servicio">
+                        <p>Mapeo Térmico</p>
+                    </div>
+                    <img src="img/servicio03.jpg" alt="Mapeo Térmico">
+                </div>
+
+                <div class="section_servicio">
+                   <div class="texto_servicio">
+                        <p>Asesoramiento Técnico</p>
+                    </div>
+                    <img src="img/servicio04.jpg" alt="Asesoramiento Técnico">
+                </div>
+        </div>
+     </section>
+    
+    
+    <section class="marcas contenedor">
+       <h2>Marcas</h2>
         <!--Carousel Wrapper-->
         <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
@@ -194,12 +264,14 @@
                     <p><span>Newsletter</span></p>
                     <p>Suscribete para recibir información semanal</p>
                          <form>
-                              <input type="email" class="correo" placeholder="correodeejemplo@gmail.com">
-                              <input type="submit" class="boton">
+                                 <div class="form_newsletter">
+                                  <input type="email" class="correo" placeholder="correodeejemplo@gmail.com">
+                                  <input type="submit" class="boton">
+                                </div>
                          </form>
                </div>
           </div>
-               <p class="footer_copy">Jr. Orbegoso 641, Breña. Lima - Perú | Copyright © 2017 Todos los derechos reservados a Ciencia y Tecnología Perú S.R.L.</p>
+               <p class="footer_copy">Copyright © 2017 Todos los derechos reservados a Ciencia y Tecnología Perú S.R.L.</p>
      </footer>
 </body>
 </html>
