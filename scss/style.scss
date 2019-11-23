@@ -46,11 +46,17 @@ h3{
     font-weight: 700;
 }
 
+p {
+  font-size: 1.8rem;
+  text-align: justify;
+  line-height: 1.3; 
+}
+
 /*Utilidades*/
 .separador{
     padding: .4rem;
     background-color:#DB75C5;
-    margin: 2rem 0 2rem 0;
+    margin: 1rem 0 2rem 0;
     color: white;
 }
 
@@ -159,48 +165,31 @@ h3{
   line-height: 1.3; 
 }
 
-/*Marcas*/
-@media screen and (min-width: 300px) {
-    .carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 100%;
-    max-width: 100%; } 
-    
-    img .img-fluid{
-        justify-self:center;
-        justify-items:center;
-        justify-content: center;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 20%;
-    max-width: 100%; } 
-}
-
-.carousel-multi-item-2 .card img {
-border-radius: 2px; }
-
-.controls{
-    text-align: center;
-}
-
-img .img-fluid:hover{
-    cursor: pointer;
+/*Main*/
+.texto_main{
+    padding: 1rem;
 }
 
 /**Productos**/
 .section_productos{
     display: grid;
+    grid-row-gap:2rem;
 }
 
-@media only screen and (min-width: 300px) and (max-width:767px) {
+@media only screen and (min-width: 334px) and (max-width:767px) {
   .section_productos {
     grid-template-areas: "1 2" "3 4" "5 6";
     grid-gap: 3rem; 
     } 
+    
+ .texto_producto{
+    font-size: 1.3rem;
+  text-align: center;
+  margin: 0;
+  padding: 1rem; 
+  border: 1px dotted #000;
+    font-weight: 900;    
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -237,7 +226,8 @@ img .img-fluid:hover{
   margin: 0;
   padding: 1rem; 
   border: 1px dotted #000;
-    font-weight: 900;
+  font-weight: 900;
+
 }
 
 .texto_producto p{
@@ -252,29 +242,29 @@ img .img-fluid:hover{
   margin: 2rem 0 2rem 0;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .section_servicios {
     grid-template-columns: repeat(2, 1fr); 
     } 
 }
 
-@media only screen and (min-width: 768px) and (min-width: 1024px) {
+@media only screen and (min-width: 800px) {
   .section_servicios {
     grid-template-columns: repeat(4, 1fr); 
     }
+    
+  .section_servicio:hover{
+     -webkit-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
+    transition: .3s ease-in;
+     }
 }
 
 .section_servicio {
   width: 28rem;
   height: auto; 
 }
-
-.section_servicio:hover{
- -webkit-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
-  transition: .3s ease-in;
- }
 
 .texto_servicio {
   font-size: 1.8rem;
@@ -290,6 +280,38 @@ box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
     margin: 0;
 }
 
+
+/*Marcas*/
+@media screen and (min-width: 300px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 100%;
+    max-width: 100%; } 
+    
+    img .img-fluid{
+        justify-self:center;
+        justify-items:center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 20%;
+    max-width: 100%; } 
+}
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+
+.controls{
+    text-align: center;
+}
+
+img .img-fluid:hover{
+    cursor: pointer;
+}
 
 /*Footer*/
 footer{
