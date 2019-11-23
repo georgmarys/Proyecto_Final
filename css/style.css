@@ -57,7 +57,9 @@ p {
     background-color: #fff;
     align-items: center;
     margin-bottom: 2.5rem;
-    text-align: center; } }
+    text-align: center; }
+  .header_navigation li a {
+    font-size: 1.6rem; } }
 
 @media only screen and (min-width: 768px) {
   .header {
@@ -65,7 +67,9 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2.5rem; } }
+    margin-bottom: 2.5rem; }
+  .header_navigation li a {
+    font-size: 1.8rem; } }
 
 .header_navigation li a {
   text-decoration: none;
@@ -132,17 +136,10 @@ p {
   display: grid;
   grid-row-gap: 2rem; }
 
-@media only screen and (min-width: 334px) and (max-width: 767px) {
+@media (min-width: 575px) and (max-width: 768px) {
   .section_productos {
     grid-template-areas: "1 2" "3 4" "5 6";
-    grid-gap: 3rem; }
-  .texto_producto {
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 0;
-    padding: 1rem;
-    border: 1px dotted #000;
-    font-weight: 900; } }
+    grid-gap: 3rem; } }
 
 @media only screen and (min-width: 768px) {
   .section_productos {
@@ -185,18 +182,19 @@ p {
   grid-gap: 2rem;
   margin: 2rem 0 2rem 0; }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 575px) and (max-width: 800px) {
   .section_servicios {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) and (min-width: 1200px) {
   .section_servicios {
-    grid-template-columns: repeat(4, 1fr); }
-  .section_servicio:hover {
-    -webkit-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
-    transition: .3s ease-in; } }
+    grid-template-columns: repeat(4, 1fr); } }
+
+.section_servicio:hover {
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
+  transition: .3s ease-in; }
 
 .section_servicio {
   width: 28rem;
