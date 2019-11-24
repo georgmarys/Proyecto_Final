@@ -186,7 +186,7 @@ p {
   .section_servicios {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media only screen and (min-width: 800px) and (min-width: 1200px) {
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
   .section_servicios {
     grid-template-columns: repeat(4, 1fr); } }
 
