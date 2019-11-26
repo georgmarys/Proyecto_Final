@@ -292,9 +292,10 @@ p {
 @media screen and (min-width: 300px) {
     .carousel-multi-item-2 .col-md-3 {
     width: 100%;
-    max-width: 100%; } 
+    max-width: 100%; 
+} 
     
-    .marcas .card{
+    .carousel .card{
         justify-items:center;
         align-items: center;
     }
