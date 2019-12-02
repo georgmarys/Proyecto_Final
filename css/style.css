@@ -1,11 +1,11 @@
 @charset "UTF-8";
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: 'Heebo', sans-serif; }
+  font-size: 62.5%; }
 
 body {
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: 'Heebo', sans-serif; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
