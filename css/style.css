@@ -276,17 +276,19 @@ footer span, i {
   justify-content: center; }
 
 .footer_newsletter form input:not([type="submit"]) {
-  width: 18rem;
-  height: 2.5rem; }
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.4rem; }
 
 .footer_newsletter .boton {
-  width: 8rem;
-  height: 2.7rem;
+  width: 7rem;
+  height: 3rem;
   font-size: 1.5rem;
   color: #fff;
   background-color: #9D3D83;
   border: none;
-  margin: 0 0 0 1rem; }
+  margin: 0 0 0 1rem;
+  border-radius: .3rem; }
 
 .footer_copy {
   padding: 0;
